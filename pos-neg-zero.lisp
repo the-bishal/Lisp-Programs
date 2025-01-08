@@ -2,7 +2,8 @@
     (cond
         ((> num 0) (format t "The number is Positive ~%"))
         ((= num 0) (format t "The number is Zero ~%"))
-        ((< num 0) (format t "The number is Negative ~%"))
+        ; ((< num 0) (format t "The number is Negative ~%"))
+        (t (format t "The number is Negative ~%")) ;This will handle the deffault case
     )
 )
 
